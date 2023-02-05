@@ -1,0 +1,232 @@
+* {
+  margin: 0 auto;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+#divfirst {
+  background-color: black;
+  margin-bottom: 0;
+  width: 1903px;
+  position: fixed;
+  height: 50px;
+}
+
+.navtop {
+  position: relative;
+  background-color: white;
+  right: 0;
+  margin-top: 20px;
+  padding: 5px 0;
+  display: flex;
+  align-items: flex-start;
+}
+#divfirst > h3 {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.navtop > ul {
+  /* margin-top: 20px; */
+  display: flex;
+  font-size: 12px;
+}
+.navtop > ul > li > a {
+  color: black;
+}
+.ulfirst {
+  position: relative;
+  margin-left: 0;
+  margin-right: 50px;
+  width: 42%;
+  text-align: start;
+}
+.ulsecond {
+  top: 0;
+  position: relative;
+  margin-right: 0px;
+  width: 30%;
+}
+.ulinul {
+  text-align: start;
+}
+.ulinulli {
+  text-align: start;
+}
+
+.ulfirst > li > ul {
+  margin-bottom: 20px;
+  background-color: white;
+  display: none;
+  text-align: start;
+}
+.ulsecond > li > ul {
+  display: none;
+  background-color: white;
+  text-align: start;
+}
+
+.navul1 > ul > li > a {
+  color: black;
+}
+
+.right {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+}
+.left {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+}
+#divfirst {
+  z-index: 100;
+  margin-bottom: 100px;
+}
+#divfourth {
+  z-index: 95;
+}
+
+.divout {
+  position: relative;
+}
+
+.divsame {
+  font-size: 43px;
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  top: 310px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.tablehover {
+  position: absolute;
+}
+
+.trmiddle {
+  font-weight: bold;
+}
+
+.trsixth {
+  font-weight: bold;
+}
+
+.lastfooter {
+  display: flex;
+  font-size: 10px;
+  margin-top: 20px;
+}
+.navul1 {
+  float: left;
+  margin-left: 0;
+}
+.navul2 {
+  float: right;
+  margin-right: 0;
+  justify-content: flex-end;
+}
+.navul3 {
+  text-align: start;
+}
+
+#nineth {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+  grid-template-areas:
+    "a a b c"
+    "a a d e";
+}
+.gridimg {
+  width: 100%;
+  height: 100%;
+}
+.gridout1 {
+  grid-area: a;
+}
+.gridout2 {
+  grid-area: b;
+}
+.gridout3 {
+  grid-area: c;
+}
+.gridout4 {
+  grid-area: d;
+}
+.gridout5 {
+  grid-area: e;
+}
+.gridrel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.gridin {
+  position: absolute;
+  background-color: rgba(10, 10, 10, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  bottom: 1px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  opacity: 0;
+}
+.gridrel1 {
+  position: relative;
+  width: 700px;
+  height: 940px;
+}
+.gridin1 {
+  position: absolute;
+  background-color: rgba(10, 10, 10, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  bottom: 1px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  opacity: 0;
+}
+
+.thirdtd {
+  font-weight: bold;
+  padding-left: 80px;
+}
+
+#third {
+  position: relative;
+  left: -1000px;
+}
+
+.divsecond {
+  overflow: hidden;
+  margin: 0;
+}
+.divsecond1 {
+  width: 500vw;
+}
+.divsecond2 {
+  width: 100vw;
+  float: left;
+}
+.divsecond2 img {
+  width: 100%;
+}

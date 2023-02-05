@@ -1,0 +1,149 @@
+* {
+  margin: 0 auto;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+#divfirst {
+  background-color: black;
+  width: 1903px;
+  height: 50px;
+  margin-bottom: 100px;
+}
+
+.navtop {
+  position: relative;
+  background-color: white;
+  right: 0;
+  margin-top: 20px;
+  padding: 5px 0;
+  display: flex;
+  align-items: flex-start;
+}
+#divfirst > h3 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.navtop > ul {
+  /* margin-top: 20px; */
+  display: flex;
+  font-size: 12px;
+}
+.navtop > ul > li > a {
+  color: black;
+}
+.ulfirst {
+  position: relative;
+  margin-left: 0;
+  margin-right: 50px;
+  width: 42%;
+  text-align: start;
+}
+.ulsecond {
+  top: 0;
+  position: relative;
+  margin-right: 0px;
+  width: 30%;
+}
+.ulinul {
+  text-align: start;
+}
+.ulinulli {
+  text-align: start;
+}
+
+.ulfirst > li > ul {
+  margin-bottom: 20px;
+  background-color: white;
+  display: none;
+  text-align: start;
+}
+.ulsecond > li > ul {
+  display: none;
+  background-color: white;
+  text-align: start;
+}
+
+.navul1 > ul > li > a {
+  color: black;
+}
+.lastfooter {
+  display: flex;
+  font-size: 10px;
+  margin-top: 20px;
+}
+.navul1 {
+  float: left;
+  margin-left: 0;
+}
+.navul2 {
+  float: right;
+  margin-right: 0;
+  justify-content: flex-end;
+}
+.navul3 {
+  text-align: start;
+}
+
+.logindiv {
+  display: flex;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.logindivin > .form1 > h2 {
+  margin-bottom: 30px;
+}
+.formtable {
+  border: 1px;
+}
+.loingidpw {
+  width: 600px;
+  height: 30px;
+  text-align: start;
+}
+.formtr3 {
+  display: flex;
+}
+.formtr4 {
+  margin: 0;
+}
+.formtr5 {
+  margin-right: 0;
+}
+
+.formtd1 {
+  display: flex;
+  justify-content: baseline;
+}
+.formtable {
+  margin-bottom: 30px;
+}
+.tabledivin {
+  margin-bottom: 20px;
+}
+.logindivin2 {
+  padding: 10px;
+}
+.logindivin2 > p {
+  font-size: 5px;
+}
+.clinput {
+  height: 25px;
+  width: 346px;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+}
+.logindivin2 > h2 {
+  margin-bottom: 30px;
+}
+.logindivin2 > p {
+  margin-bottom: 10px;
+}
+.clinput {
+  margin-top: 20px;
+}
